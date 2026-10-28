@@ -3,7 +3,17 @@ name = "rs-paste4sqlite"
 version = "0.1.0"
 edition = "2024"
 
+description = "Paste SQLite rows from stdin to a database."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-paste4sqlite"
+homepage = "https://github.com/takanoriyanagitani/rs-paste4sqlite"
+documentation = "https://docs.rs/rs-paste4sqlite/latest"
+keywords = ["sqlite", "paste", "column", "wasi", "cli"]
+
 exclude = [
+  "paste4sqlite.wasm",
+  "inp.sqlite.db3",
+  "out.sqlite.db3",
 ]
 
 [lints.rust]
